@@ -4,7 +4,8 @@
 
 ## STEPS TO RUN
 ### Clone the repo 
-```git clone https://github.com/mohd-asim/hrms-app.git
+``` 
+git clone https://github.com/mohd-asim/hrms-app.git
 git checkout MiRAi-application-development 
 ./mvnw clean package
 java -jar ./target/mirai-1.0.0.jar
