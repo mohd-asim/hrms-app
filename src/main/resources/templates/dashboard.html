@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+</head>
+<body>
+    <h1>Welcome to the Candidate Dashboard</h1>
+    <a th:href="@{/profile}">View Profile</a>
+    <form th:action="@{/resume/upload}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <button type="submit">Upload Resume</button>
+    </form>
+</body>
+</html>
