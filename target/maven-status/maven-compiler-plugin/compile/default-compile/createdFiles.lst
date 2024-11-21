@@ -1,0 +1,5 @@
+com\mirai\model\Candidate.class
+com\mirai\MiraiApplication.class
+com\mirai\repository\CandidateRepository.class
+com\mirai\controller\CandidateController.class
+com\mirai\service\CandidateService.class
